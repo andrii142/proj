@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+
+}
+html, body, div, span, h1, h2, h3, p, a, ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+	font-family: Arial;
+	background-color: rgb(254, 224, 205);
+}
+#header {
+	background-color: rgb(166, 187,221);
+}
+#header h1{
+
+	font: 2em Verdana;
+	padding: 20px 20px 20px 60px;
+	text-transform: uppercase;	
+	clear: both;
+	font-weight: lighter;
+}
+h1:first-letter {
+	font-family: Times New Roman;
+	font-size: 2em;
+	color: red;
+}
+
+
+#sidebar1{
+	background-color: rgb(150, 150, 180);
+	line-height: 2.3em;
+	font-size: 1.1em;
+	min-height: 100%;
+	float: left;
+	width: 15%;
+	padding: 0 10px 0 20px;
+}
+#sidebar2{
+	background-color: rgb(150, 150, 180);
+    line-height: 2.5em;
+	min-height: 100%;
+	float: right;
+	width: 15%;
+	padding: 0 20px 0 10px;
+}
+.aside h2 {
+	font-size: 22px;
+	font-family: Verdana;
+	margin-top: 10px;
+}
+.aside h3 {
+    font-size: 1.4em;
+    margin-top: 10px;
+    }
+    .aside li{ 
+    list-style-type: none;
+}
+.aside a:hover{
+	font-weight: bold;
+}
+#article{
+	background-color: rgb(136, 154, 201);
+	min-height: 100%;
+}
+#article h3{
+	font-size: 1.5em;
+	padding: 5px 5px 1px 60px;
+}
+#article h4{
+	margin: 7px;
+	padding: 1px 1px 1px 5px;
+	font-size: 1.2em;
+}
+#article p{
+	font-size: 1.1em;
+    line-height: 200%;
+    margin-bottom: 15px;
+}
+#article p1{
+    font-size: 1.29em;
+}
+.wrapper{
+	height: 600px;
+	background-color: rgb(192, 236, 176);
+	
+}
+
+#article{
+	 border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15px;
+    width: 70%;
+}
+#article h2{
+    font-size: 1.3em;
+    margin-bottom:15px;
+}
+
+#footer{ 
+	background-color: rgb(155, 160, 210);
+    border-top: 1px solid #ccc;
+    font-size: 1.3em;    
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
